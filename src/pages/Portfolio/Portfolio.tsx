@@ -13,11 +13,11 @@ const Contact = lazy(() => import('./components/contact/Contact'))
 
 function Portfolio() {
   return (
-    <Wrapper titulo={"Cachorra"}>
+    <Wrapper >
 
        <AboutMe/>
-       <Skills/>
-       <Contact/>
+       {/* <Skills/> */}
+       {/* <Contact/> */}
     </Wrapper>
   )
 }

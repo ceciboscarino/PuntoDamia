@@ -20,11 +20,29 @@ z-index: 100;
 background-color: white;
 
 
-h2{
-    font-weight: 700;
-  
-    margin-left: 1%;
-  
+
+#logoGrande{
+    
+
+    
+    padding: 8px;
+    display: none;
+    max-height: 40px;
+    @media (min-width: 768px){
+        display: inline ;
+    }  
+    
+
+
+}
+#logoChico{
+    max-height: 40px;
+    margin-left: ;
+
+    @media (min-width: 768px){
+        display: none;
+    }  
+
 }
 
 a{
