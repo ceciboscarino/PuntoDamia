@@ -1,4 +1,4 @@
-import { WrapperNavBar } from "./styled-components";
+import { BgDiv, WrapperNavBar } from "./styled-components";
 import { MoonFill } from "react-bootstrap-icons";
 import { SunFill } from "react-bootstrap-icons";
 import { useState } from "react";
@@ -59,6 +59,9 @@ export default function Wrapper({ children, titulo }: Props) {
     <>
       <WrapperNavBar>
 
+        <button id="switch" className="switch" onClick={handleClickTheme}>
+          {colorScheme === 'dark' ? <SunFill size={25} /> : <MoonFill size={25} />}
+        </button>
 
         <img src={"/logopd.svg"} alt="" id="logoGrande"/>
         <img src={"/favicon.svg"} alt="" id="logoChico"/>
@@ -68,15 +71,13 @@ export default function Wrapper({ children, titulo }: Props) {
           <a href="#skills" onClick={handleClickLink}>Visitanos</a>
           <a href="#contact" onClick={handleClickLink}>Contacto</a>
         </div>
-        <button id="switch" className="switch" onClick={handleClickTheme}>
-          {colorScheme === 'dark' ? <SunFill size={25} /> : <MoonFill size={25} />}
-        </button>
         <div className="burguer">
           <BurguerButton handleClick={handleClick} clicked={clicked} />
         </div>
 
 
       </WrapperNavBar>
+      <BgDiv className={`initial ${clicked ? 'active' : ''}`}></BgDiv>
       <div>{children}</div>
     </>
   )

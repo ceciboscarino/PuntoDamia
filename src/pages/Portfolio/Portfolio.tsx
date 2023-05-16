@@ -15,10 +15,10 @@ const images = ['1.jpeg','2.jpg','3.jpeg']
 function Portfolio() {
   return (
     <Wrapper titulo={"Cachorra"} >
+       <Carousel images={images} autoPlay={true} showButtons={false}/>
        <AboutMe/>
        <Skills/>
        <Contact/>
-       <Carousel images={images} autoPlay={false} showButtons={true}/>
     </Wrapper>
   )
 }
