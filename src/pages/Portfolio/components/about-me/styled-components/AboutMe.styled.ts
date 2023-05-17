@@ -28,7 +28,12 @@ div{
 
 
     
-    
+
+}
+
+.animation{
+    background-color: lightblue;
+    --transition__duration: 7s;
 }
 
 `;
