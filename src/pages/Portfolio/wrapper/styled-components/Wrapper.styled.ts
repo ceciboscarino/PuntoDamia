@@ -4,8 +4,6 @@ import styled from "styled-components";
 export const WrapperNavBar = styled.nav`
 
 display: flex;
-
-
 align-items: center;
 padding: 3px;
 justify-content: space-between;
@@ -23,97 +21,65 @@ background-color: white;
 
 #logoGrande{
     
-
-    
     padding: 8px;
     display: none;
     max-height: 40px;
     @media (min-width: 768px){
         display: inline ;
     }  
-    
-
-
-}
+    }
 #logoChico{
     max-height: 40px;
-    margin-left: ;
-
+    margin-left: 1%;
     @media (min-width: 768px){
         display: none;
-    }  
-
+    } 
 }
 
 a{
     text-decoration: none;
     
     color: black;
-    ;
-
 }
+
 .links {
         
         position: absolute;
         top: -700px;
-        left: -1000px;
+        
         right: 0;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         transition: all .5s ease;
-        cursor: pointer;
-        
-       
+        cursor: pointer;  
         a {
             display: block;
-            font-size: 3rem;
+            font-size: 20px;
             //border-bottom: solid 2px transparent;
             margin: 8px;
-            font-weight: 500;
-        
             &:hover {
                 //border-bottom: solid 2px #222;
-                color: white;
-                background-color: grey;
-                padding: 5px;
-                margin: 3px;
-
-                
-                
-
+                color: white ;
             }
-        }
-       
-        @media (min-width: 768px) {
-            position: initial;
-            flex-direction: column;
-            align-items: flex-start;
-            margin: 0;
-            a {
-                font-size: 1rem;
-                display: inline;
-            }
-
-        }
-        
-
+        }     
     }
+
     .links.active {
-        width: 100%;
+        width: 250px;
         display: block;
         position: absolute;
-        margin-left: auto;
-        margin-right: auto;
         top: 100px;
-        left: 0;
         right: 0;
         text-align: center;
-        
-        a{
-            font-size: 2rem;
-            margin-top: 1rem;
-        }
+       
+
+        /* top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    max-width: 250px;
+    transform: translateX(-250px); */
     }
 
     .switch {
@@ -121,11 +87,34 @@ a{
         border: none;
         cursor: pointer;
         margin-right: 1%;
+        color: rgb(0,174,239);
     }
+
     .burguer {
-        @media (min-width: 768px) {
-            display: none;
-         }
-    }
+       
+     }
+`;
+
+export const BgDiv = styled.div `
+position: absolute;
+background-color: rgb(0,174,239);
+top: -100px;
+left: 100%;
+right: -3000;
+width: 0;
+height: 100%;
+z-index: 4;
+transition: all .6s ease;
+
+&.active {
+    border-radius: 0 0 0 0;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    max-width: 250px;
+    transform: translateX(-250px);
+    
+}
 `;
 

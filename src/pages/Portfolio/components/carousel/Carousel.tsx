@@ -18,7 +18,7 @@ export default function Carousel(props : CarouselProps) {
         if (props.autoPlay || !props.showButtons) {
           const interval = setInterval(() => {
             selectNewImage(selectedIndex, props.images);
-          }, 1000);
+          }, 2000);
           return () => clearInterval(interval);
         }
       });
@@ -48,7 +48,7 @@ export default function Carousel(props : CarouselProps) {
     <> 
         <CarouselImg 
         // eslint-disable-next-line @typescript-eslint/no-var-requires
-        src={require(`assets/img/${selectedImage}`).default}
+        src={`img/${selectedImage}`}
         alt="carousel" 
         className={loaded ? 'loaded' : ''}
         onLoad={ () => {setLoaded(true)}}

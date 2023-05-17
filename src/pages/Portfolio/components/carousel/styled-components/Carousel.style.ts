@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CarouselImg = styled.img`
-    max-width: 500px;
+    max-width: 100%;
     width: 100%;
     height: auto;
     opacity: 0;
