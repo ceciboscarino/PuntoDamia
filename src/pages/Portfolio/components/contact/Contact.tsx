@@ -1,9 +1,12 @@
+
+import {SocialMedia} from "./components/social-media-buttons";
 import { ContactContainer } from "./styled-components";
+
 
 function Contact() {
     return (
         <ContactContainer id="contact">
-            <h1>Contact</h1>
+            <SocialMedia/>
             </ContactContainer>)
 
 }

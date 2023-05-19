@@ -4,7 +4,7 @@ export const AboutMeContainer = styled.div`
 
 
 background-color: rgb(204,204,204);
-height: 600px;
+height: 1000px;
 
 h1{
     font-family: "Red Hat Mono Bold";
