@@ -1,12 +1,11 @@
+import { CarrouselBrands } from "./components/carrousel-brands";
 import { SkillsContainer } from ".";
 
 function Skills() {
     return (
         <SkillsContainer id="skills">
-           <h1> 
-           Skills 
-           </h1> 
-          
+
+            <CarrouselBrands/>
 
         </SkillsContainer>
     )
