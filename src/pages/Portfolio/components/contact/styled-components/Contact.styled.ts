@@ -2,12 +2,9 @@ import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
 
-height: 100%;
+height: 300px;
 display: grid;
 width: 100%;
 place-items: center;
-background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-
-
-
+background: rgb(0,174,239);
 `;

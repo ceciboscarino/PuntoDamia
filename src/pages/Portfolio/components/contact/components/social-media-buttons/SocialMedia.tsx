@@ -8,20 +8,20 @@ export default function SocialMedia () {
             <div className="button">
                 <div className="icon">
                     <i className="fab fa-facebook-f"></i>
-                    <span>Facebook</span>
                 </div>
+                <span>Facebook</span>
             </div>
             <div className="button">
                 <div className="icon">
                     <i className="fab fa-instagram"></i>
-                    <span>Instagram</span>
                 </div>
+                <span>Instagram</span>
             </div>
             <div className="button">
                 <div className="icon">
                     <i className="fab fa-whatsapp"></i>
-                    <span>Whatsapp</span>
                 </div>
+                <span>Whatsapp</span>
             </div>
             
         </SocialMediaContainer>
