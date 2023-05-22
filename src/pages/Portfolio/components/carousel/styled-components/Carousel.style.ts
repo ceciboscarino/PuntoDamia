@@ -4,6 +4,8 @@ export const CarouselImg = styled.img`
     max-width: 100%;
     width: 100%;
     height: auto;
+    margin-top: 66px;
+    margin-bottom: 0px;
     opacity: 0;
     transition: 1s;
     &.loaded {
@@ -15,7 +17,10 @@ export const CarouselContainer = styled.div`
     display: flex;
     align-content: center;
     flex-direction: row;
-    margin-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: -8px;
+    
+
 `
 
 export const CarouselButton = styled.button`
@@ -23,4 +28,5 @@ export const CarouselButton = styled.button`
     background-color: #eb118a;
     padding: 8px;
     margin: 0 5px;
+
 `

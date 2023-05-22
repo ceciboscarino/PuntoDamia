@@ -2,49 +2,40 @@ import styled from 'styled-components';
 
 export const AboutMeContainer = styled.div`
 
-
-background-color: rgb(204,204,204);
-height: 1000px;
-
-h1{
-    font-family: "Red Hat Mono Bold";
-    color: white;
-    position: absolute;
+h2{
+    
+    color: #fff;
     top: 0;
 }
-
-
-
 div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    display : flex;
     flex-direction: column;
     z-index: 1;
-    padding: 25px;
     
 
+    p{
+        text-align: center;
+        color: #fff;
+    }
 
-    
-
+    @media screen {
+        
+    }
 }
 
 .animation{
-    background-color: lightblue;
+    background-color: rgb(0,174,239);
     --transition__duration: 7s;
+    margin: 0;
+    
 }
 
 `;
 export const  AboutMeImg = styled.img`
-
-
-
-width: 80%;
+width: 100%;
 height: auto;
-
-
 `;
 
 

@@ -8,7 +8,7 @@ const AboutMe = lazy(() => import('./components/about-me/AboutMe'))
 const Skills = lazy(() => import('./components/skills/Skills'))
 const Contact = lazy(() => import('./components/contact/Contact'))
 
-const images = ['1.jpeg','2.jpg','3.jpeg']
+const images = ['1.jpg','2.jpg','3.jpg']
 
 
 

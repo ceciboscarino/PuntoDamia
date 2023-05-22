@@ -1,5 +1,5 @@
 import { AboutMeContainer , AboutMeImg} from ".";
-import  aboutmeimage  from "./assets/ceci.jpg"
+import  aboutmeimage  from "./assets/4.jpg"
 import 'transition-style';
 
 
@@ -9,11 +9,11 @@ function AboutMe() {
         <>
         <AboutMeContainer id="aboutme">
             <div transition-style="in:circle:top-right" className="animation">
-                <h1>Nosotros </h1>
+                <h2>SOLUCIONES INTELIGENTES</h2>
                 <div>
+                    <AboutMeImg  alt= "picture" src= {aboutmeimage} />
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia sequi impedit numquam quas amet provident cum voluptatibus deserunt voluptatem enim asperiores nam ipsa, odio officia molestiae nobis ea quisquam.</p>
                     
-                    <AboutMeImg  alt= "picture" src= {aboutmeimage} />
                 </div>
             </div>
         </AboutMeContainer>
