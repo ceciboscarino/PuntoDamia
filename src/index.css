@@ -35,7 +35,7 @@ body {
 }
 
 [data-theme= "light"] {
-  --bg : #ffffff;
+  --bg : #e6e6e6;
   --color: #000000;
   --main-color: #f30889;
   --input-bg: hsla(208, 50%, 50%, 6.5%);

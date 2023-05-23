@@ -9,6 +9,7 @@ max-width: 385px;
 margin-top: 50px;
 
 
+
 align-content: center;
 
 .item{
@@ -17,5 +18,6 @@ align-content: center;
     width: 150px ;
     margin-bottom: 50px;  
     padding-left: 50px;
+
 }
 `

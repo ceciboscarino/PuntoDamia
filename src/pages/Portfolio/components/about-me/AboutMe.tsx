@@ -9,8 +9,8 @@ function AboutMe() {
         <>
         <AboutMeContainer id="aboutme">
             <div transition-style="in:circle:top-right" className="animation">
-                <h2>SOLUCIONES INTELIGENTES</h2>
-                <div>
+                <h3>SOLUCIONES INTELIGENTES</h3>
+                <div className="us">
                     <AboutMeImg  alt= "picture" src= {aboutmeimage} />
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quia sequi impedit numquam quas amet provident cum voluptatibus deserunt voluptatem enim asperiores nam ipsa, odio officia molestiae nobis ea quisquam.</p>
                     
