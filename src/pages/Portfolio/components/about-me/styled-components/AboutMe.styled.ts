@@ -6,6 +6,12 @@ h3{
     
     color: #fff;
     top: 0;
+    background-color: black;
+    height: 30px;
+    margin:0px;
+    text-align: center;
+    padding-top: 10px;
+
 }
 div{
     display: flex;
@@ -20,39 +26,26 @@ div{
     
     p{
         text-align: center;
-        color: #fff;
+        
+        
     }
 
 .animation{
-    background-color: rgb(0,174,239);
+    background-image: url("./img/images.jpeg") ;
     --transition__duration: 7s;
     margin: 0;
-    
+    background-repeat: no-repeat;
+    width: 100%;
+
 }
 @media screen and (min-width: 786px) {
-.us {
-    
-    
-}
-p{
-    
-    z-index: 10px;
-}
-img{
-    padding-bottom: 50px;
-    
-    width: 100%;
-}
-h3{
-    display: none;
-}
+
+
+
 
 }
 
 `;
-export const  AboutMeImg = styled.img`
-width: 100%;
-height: auto;
-`;
+
 
 
