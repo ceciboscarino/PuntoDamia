@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const AboutMeContainer = styled.div`
+display: flex;
+flex-direction: column;
 
 h3{
     
@@ -11,22 +13,15 @@ h3{
     margin:0px;
     text-align: center;
     padding-top: 10px;
+    z-index: 1;
+    lign-items: center;
+    
 
 }
-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-    
-    }
 
-
-    
     p{
-        text-align: center;
-        
+        text-align: right;
+        padding-top:30%;        
         
     }
 
@@ -35,17 +30,17 @@ div{
     --transition__duration: 7s;
     margin: 0;
     background-repeat: no-repeat;
-    width: 100%;
-
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    
+    
 }
 @media screen and (min-width: 786px) {
-
-
-
-
 }
-
-`;
+`
 
 
 
