@@ -27,6 +27,7 @@ export default function Carousel(props : CarouselProps) {
 
     const selectNewImage = (index: number, images: string[], next = true) => {
         setLoaded(false)
+        console.log({index})
         setTimeout(() => {
             const condition = next ? selectedIndex < images.length - 1 : selectedIndex > 0;
             const nextIndex = next ? (condition ? selectedIndex + 1 : 0) : (condition ? selectedIndex - 1 : images.length - 1);

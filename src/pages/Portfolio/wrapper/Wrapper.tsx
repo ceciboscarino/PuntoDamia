@@ -7,9 +7,8 @@ import BurguerButton from './../../../components/BurgerButton/BurgerButton';
 
 interface Props {
   children: JSX.Element | JSX.Element[];
-  titulo?: string;
 }
-export default function Wrapper({ children, titulo }: Props) {
+export default function Wrapper({ children }: Props) {
   const allElements = document.querySelectorAll("*");
 
   const [colorScheme, setColorScheme] = useState<string>(ColorSchemeActive())
@@ -24,13 +23,6 @@ export default function Wrapper({ children, titulo }: Props) {
   }
   const handleClickLink = () => {
     setClicked(!clicked)
-  }
-
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
   }
 
   const scrollToTop =() =>{
