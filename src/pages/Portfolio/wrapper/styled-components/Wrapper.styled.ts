@@ -9,7 +9,7 @@ padding: 3px;
 justify-content: space-between;
 box-shadow: var(--navbarShadow);
 width: 100%;
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 max-height: 70px;

@@ -18,15 +18,27 @@ export default function Wrapper({ children, titulo }: Props) {
 
   const handleClick = () => {
     setClicked(!clicked)
-    const body = document.querySelector('body')?.setAttribute('style', `overflow-y: ${clicked ? 'auto' : 'hidden'}`)
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    // const body = document.querySelector('body')?.setAttribute('style', `overflow-y: ${clicked ? 'auto' : 'hidden'}`)
+    window.scrollTo({ behavior: 'smooth' });
 
   }
   const handleClickLink = () => {
     setClicked(!clicked)
   }
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
+  const scrollToTop =() =>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 
   const handleClickTheme = () => {
 
@@ -58,27 +70,31 @@ export default function Wrapper({ children, titulo }: Props) {
   return (
     <>
       <WrapperNavBar>
-
         <button id="switch" className="switch" onClick={handleClickTheme}>
           {colorScheme === 'dark' ? <SunFill size={25} /> : <MoonFill size={25} />}
         </button>
 
-        <img src={"/logopd.svg"} alt="" id="logoGrande"/>
-        <img src={"/favicon.svg"} alt="" id="logoChico"/>
+       
+       <a onClick={scrollToTop}>
+        <img src={"/logopd.svg"} alt="" id="logoGrande" />
+        <img src={"/favicon.svg"} alt="" id="logoChico" />
+        </a>
+     
 
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a href="#aboutme" onClick={handleClickLink}>Nosotros</a>
           <a href="#skills" onClick={handleClickLink}>Visitanos</a>
           <a href="#contact" onClick={handleClickLink}>Contacto</a>
         </div>
+
         <div className="burguer">
           <BurguerButton handleClick={handleClick} clicked={clicked} />
         </div>
 
-
       </WrapperNavBar>
+
       <BgDiv className={`initial ${clicked ? 'active' : ''}`}></BgDiv>
       <div>{children}</div>
     </>
-  )
+  );
 }

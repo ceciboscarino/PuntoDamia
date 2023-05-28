@@ -64,4 +64,13 @@ export const SocialMediaContainer = styled.div`
     .button:nth-child(3) span{
         color: #25D366;
     }
+
+    @media (min-width: 786px) {
+        .button:nth-child(1){
+            margin-right: 45px;
+        }
+        .button:nth-child(2){
+            margin-right: 45px;
+        }
+    }
 `

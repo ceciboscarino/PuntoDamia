@@ -8,7 +8,7 @@ function AboutMe() {
         <AboutMeContainer id="aboutme">
             <h3>SOLUCIONES INTELIGENTES</h3>
             <div transition-style="in:circle:top-right" className="animation">
-            <p> Somos los aliados que necesitas</p>
+            <img src="./img/5.jpg" alt="" />
             </div>
         </AboutMeContainer>
     )
