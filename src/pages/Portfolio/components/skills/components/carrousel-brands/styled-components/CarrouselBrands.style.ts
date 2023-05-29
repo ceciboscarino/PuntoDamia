@@ -9,6 +9,7 @@ max-width: 385px;
 margin-top: 30px;
 align-content: center;
 align-items: center;
+background-color: #ffffff;
 
 .item{
     flex-shrink: 0;

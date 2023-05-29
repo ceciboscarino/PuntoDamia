@@ -26,7 +26,7 @@ body {
 [data-theme= "dark"] {
   --bg : #000000;
   --color: #ffffff;
-  --main-color: #f30889;
+  --main-color: rgb(0,174,239);
   --input-bg: hsla(208, 50%, 50%, 6.5%);
   --input-bg-hover: hsla(208, 50%, 50%, 14%);
   --bgImg: url("/src/pages/Portfolio/components/about-me/assets/img/banner-bgd.png");
@@ -35,9 +35,9 @@ body {
 }
 
 [data-theme= "light"] {
-  --bg : #e6e6e6;
+  --bg : #ffffff;
   --color: #000000;
-  --main-color: #f30889;
+  --main-color: rgb(0,174,239);
   --input-bg: hsla(208, 50%, 50%, 6.5%);
   --input-bg-hover: hsla(208, 50%, 50%, 14%);
   --bgImg: url("/src/pages/Portfolio/components/about-me/assets/img/banner-bg.png");
@@ -48,7 +48,7 @@ body {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #000000;
     background-color: #ffffff;
   }
   

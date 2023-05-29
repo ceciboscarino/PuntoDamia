@@ -7,7 +7,7 @@ height: 300px;
 display: grid;
 width: 100%;
 place-items: center;
-background: rgb(0,174,239);
+background: var(--main-color);
 align-items: center;
 `;
 

@@ -15,7 +15,7 @@ left: 0;
 max-height: 70px;
 z-index: 100;   
 /* background-color: var(--bg); */
-background-color: white;
+background-color: var(--bg);
 
 
 
@@ -26,6 +26,7 @@ background-color: white;
     max-height: 40px;
     @media (min-width: 768px){
         display: inline ;
+        cursor: pointer;
     }  
     }
 #logoChico{
@@ -33,6 +34,7 @@ background-color: white;
     margin-left: 1%;
     @media (min-width: 768px){
         display: none;
+        cursor: pointer;
     } 
 }
 
@@ -60,7 +62,7 @@ a{
             margin: 8px;
             &:hover {
                 //border-bottom: solid 2px #222;
-                color: white ;
+                color: var(--color) ;
             }
         }     
     }
@@ -87,7 +89,7 @@ a{
         border: none;
         cursor: pointer;
         margin-right: 1%;
-        color: rgb(0,174,239);
+        color: var(--main-color);
     }
 
     .burguer {
@@ -96,7 +98,7 @@ a{
 
 export const BgDiv = styled.div `
 position: absolute;
-background-color: rgb(0,174,239);
+background-color: var(--main-color);
 top: -100px;
 left: 100%;
 right: -3000;
