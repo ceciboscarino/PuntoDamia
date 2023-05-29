@@ -5,6 +5,7 @@ import { useState } from "react";
 import { ColorSchemeActive } from "../../../utilities/color-scheme-active";
 import BurguerButton from './../../../components/BurgerButton/BurgerButton';
 
+
 interface Props {
   children: JSX.Element | JSX.Element[];
 }
@@ -25,7 +26,7 @@ export default function Wrapper({ children }: Props) {
     setClicked(!clicked)
   }
 
-  const scrollToTop =() =>{
+  const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -66,12 +67,10 @@ export default function Wrapper({ children }: Props) {
           {colorScheme === 'dark' ? <SunFill size={25} /> : <MoonFill size={25} />}
         </button>
 
-       
-       <a onClick={scrollToTop}>
-        <img src={"/logopd.svg"} alt="" id="logoGrande" />
-        <img src={"/favicon.svg"} alt="" id="logoChico" />
+        <a onClick={scrollToTop}>
+          <img src={"/logopd.svg"} alt="" id="logoGrande" />
+          <img src={"/favicon.svg"} alt="" id="logoChico" />
         </a>
-     
 
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a href="#aboutme" onClick={handleClickLink}>Nosotros</a>

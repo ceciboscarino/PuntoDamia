@@ -7,7 +7,7 @@ export default function SocialMedia () {
         <SocialMediaContainer>
             <div className="button">
                 <div className="icon">
-                    <i className="fab fa-facebook-f"></i>
+                    <i className="fa fa-facebook"></i>
                 </div>
             <a href="https://www.facebook.com/puntodamia" target="_blank"  >
                 <span>Facebook</span>
@@ -15,7 +15,7 @@ export default function SocialMedia () {
             </div>
                 <div className="button">
                 <div className="icon">
-                    <i className="fab fa-instagram"></i>
+                    <i className="fa fa-instagram"></i>
                 </div>
             <a href="https://www.instagram.com/puntodamia" target="_blank">
                 <span>Instagram</span>
@@ -23,7 +23,7 @@ export default function SocialMedia () {
                 </div>
             <div className="button">
                 <div className="icon">
-                    <i className="fab fa-whatsapp"></i>
+                    <i className="fa fa-whatsapp"></i>
                 </div>
             <a href="https://wa.me/5493816000666" target="_blank">
                 <span>Whatsapp</span>
