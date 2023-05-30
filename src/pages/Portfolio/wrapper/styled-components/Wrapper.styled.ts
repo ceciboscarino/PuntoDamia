@@ -21,7 +21,7 @@ background-color: var(--bg);
 
 #logoGrande{
     
-    padding: 8px;
+    margin-top: 10px;
     display: none;
     max-height: 40px;
     @media (min-width: 768px){

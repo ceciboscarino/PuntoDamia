@@ -9,5 +9,6 @@ width: 100%;
 place-items: center;
 background: var(--main-color);
 align-items: center;
+margin-top: -10px;
 `;
 
