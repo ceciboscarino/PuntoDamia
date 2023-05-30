@@ -41,7 +41,7 @@ background-color: var(--bg);
 a{
     text-decoration: none;
     
-    color: black;
+    color: var(--color);
 }
 
 .links {
@@ -56,13 +56,14 @@ a{
         transition: all .5s ease;
         cursor: pointer;  
         a {
+           
             display: block;
             font-size: 20px;
             //border-bottom: solid 2px transparent;
             margin: 8px;
             &:hover {
                 //border-bottom: solid 2px #222;
-                color: var(--color) ;
+                color:var(--bg );
             }
         }     
     }
@@ -112,7 +113,7 @@ transition: all .6s ease;
     top: 0;
     right: 0;
     width: 250px;
-    height: 100vh;
+    height: 200vh;
     max-width: 250px;
     transform: translateX(-250px);
     

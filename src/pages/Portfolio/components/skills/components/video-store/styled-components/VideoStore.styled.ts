@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const VideoStoreContainer = styled.div`
 
+margin-top: 8px;
 position: relative;
 overflow: hidden;
 width: 100%;
