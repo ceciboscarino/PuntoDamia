@@ -9,6 +9,7 @@ align-items: center;
 
 h3{
     margin-right: 20px;
+    
 }
 hr{
     display: none;

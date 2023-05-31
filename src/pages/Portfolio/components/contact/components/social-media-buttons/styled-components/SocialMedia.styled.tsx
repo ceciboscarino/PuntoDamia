@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const SocialMediaContainer = styled.div`
 
+a{
+    text-decoration: none;
+}
+
   .button{
     display: inline-block;
     height: 60px;
@@ -37,6 +41,7 @@ export const SocialMediaContainer = styled.div`
         line-height: 60px;
         margin-left: 10px;
         transition: all 0.3s ease-out;
+        text-decoration: none;
     }
 }
     .button:hover{
@@ -44,6 +49,7 @@ export const SocialMediaContainer = styled.div`
         i{
             color: #fff;
         }
+        text-decoration: none;
     }
     .button:nth-child(1):hover .icon{
         background: #4267B2;
