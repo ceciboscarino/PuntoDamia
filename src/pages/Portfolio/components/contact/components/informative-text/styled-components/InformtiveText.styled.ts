@@ -8,6 +8,10 @@ color: #ffffff;
 
 text-align: center;
 
+h3{
+    cursor: pointer;
+}
+
 @media (min-width: 786px) {
 width: 25%;
 }
