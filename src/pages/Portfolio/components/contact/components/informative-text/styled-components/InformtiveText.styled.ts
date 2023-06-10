@@ -7,10 +7,14 @@ flex-direction: column;
 color: #ffffff;
 
 text-align: center;
-
+cursor: pointer;
+h2{
+    color: black;
+}
 h3{
     cursor: pointer;
 }
+
 
 @media (min-width: 786px) {
 width: 25%;

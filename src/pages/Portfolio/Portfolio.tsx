@@ -1,5 +1,6 @@
 
 
+import Icons from "./components/icons/Icons"
 import { Carousel } from "./components/carousel"
 import { Wrapper } from "./wrapper/"
 import { lazy } from 'react'
@@ -18,6 +19,7 @@ function Portfolio() {
        <Carousel images={images} autoPlay={true} showButtons={false}/>
        <AboutMe/>
        <Skills/>
+       <Icons/>
        <Contact/>
     </Wrapper>
   )

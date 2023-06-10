@@ -18,15 +18,18 @@ function InformativeText (){
     function handleSalta () {
         updateLocation(LocalNombres.SALTA)
     }
+    function handleSuc () {
+        updateLocation(LocalNombres.TODOS)
+    }
 
     return(
         <InformativeTextContainer>
-            <h2>SUCURSALES</h2>
-            <h3 onClick={handleTuc}>📍San Martin 895 - SMT</h3>
+            <h2 onClick={handleSuc}>SUCURSALES</h2>
+            <h3 onClick={handleTuc}>📍 San Martin 895 - SMT</h3>
             {/* <hr/> */}
-            <h3 onClick={handleYB} >📍Av. Aconquija 1420 - YB</h3>
+            <h3 onClick={handleYB} >📍 Av. Aconquija 1420 - YB</h3>
             {/* <hr/> */}
-            <h3 onClick={handleSalta} >📍Alberdi 110 - Salta</h3>
+            <h3 onClick={handleSalta} >📍 Alberdi 110 - Salta</h3>
         </InformativeTextContainer>
     )
 }

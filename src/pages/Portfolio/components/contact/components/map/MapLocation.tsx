@@ -157,6 +157,10 @@ function MapLocation() {
           LocalSaltaZoom?.map((value : google.maps.LatLngLiteral) => { zoom.extend( value )})
           mapRef.current?.fitBounds(zoom);
           return 'f'
+          case LocalNombres.TODOS: 
+          markers?.map((value : google.maps.LatLngLiteral) => { zoom.extend( value )})
+          mapRef.current?.fitBounds(zoom);
+          return 't'
           default:
             return null
 
