@@ -11,7 +11,7 @@ function Icons() {
     <IconsContainer>
         <div className="div">
             <MdDeliveryDining/>
-            <p>Envios a todo el pais</p>    
+            <p>Envios gratis</p>    
         </div> 
         <div className="div">
             <BsTools/>

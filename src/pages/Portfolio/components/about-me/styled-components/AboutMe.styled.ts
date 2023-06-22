@@ -48,16 +48,120 @@ flex-direction: column;
 
 
 }
-.animation{
-    background-color: transparent ;
+/* .back{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: transparent;
+
+} */
+.animation {
+  background-color: transparent ;
     --transition__duration: 7s;
     margin: 0;
+    align-items: center;
+    position: relative;
     
 }
-img{
-    width: 100%;
+.imgUno {
+  width: 100%;
     height: auto;
+    z-index: -20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    @media screen and (min-width: 786px) {
+      display: flex;
+      width: 100%;
+    height: auto;
+    z-index: -20px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+}
+
+.imgDos {
+  width: 100%;
+    height: auto;
+    z-index: -20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    @media screen and (min-width: 786px) {
+      display: none;
+      width: 100%;
+    height: auto;
+    z-index: -20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+}
+
+.text{
+  position: relative;
+      top: 0;
+      left: 0;
+    @media screen and (min-width: 786px) {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+}
+
+.body {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 8px;
+  padding-left: 3%;
+  
+}
+.waviy {
+  position: relative;
+  span {
+  position: relative;
+  display: inline-block;
+  font-size: 35px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+  
+  
+
+  }
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+}
+
+
+
+    p{
+    text-align: justify;
+    width: 50%;
+    padding-left: 26%;
+    padding-top: 15%;
+    font-family: MontHeavy ;
+    
+    } 
+  .center{
+    text-align: center;
+    padding-top: 0px;
+    margin:0;
+    margin-top: -16px;
+    
+  }
+    
+
+
 @media screen and (min-width: 786px) {
 }
 `

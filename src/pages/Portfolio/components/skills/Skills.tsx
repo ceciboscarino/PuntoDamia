@@ -1,6 +1,7 @@
 import { CarrouselBrands } from "./components/carrousel-brands";
 import { SkillsContainer } from ".";
 import { VideoStore } from "./components/video-store";
+import { TecText } from "./components/tec-text";
 
 
 
@@ -10,7 +11,7 @@ function Skills() {
 
             <CarrouselBrands/>
             <VideoStore/>
-
+            <TecText/>
         </SkillsContainer>
     )
 }

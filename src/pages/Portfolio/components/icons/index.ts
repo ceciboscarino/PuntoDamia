@@ -1,1 +1,2 @@
-export { default as Icons } from './Icons';
+export { default as IconsMotorola } from './IconsMotorola';
+export * from './styled-components';

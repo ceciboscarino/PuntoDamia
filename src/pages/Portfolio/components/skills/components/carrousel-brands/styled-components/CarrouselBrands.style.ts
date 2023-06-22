@@ -57,9 +57,9 @@ position: relative;
 .item{
     flex-shrink: 0;
     /* scroll-snap-align: start; */
-    width: 150px ;
+    width: 130px ;
     margin-bottom: 6px;  
-    padding-left: 50px;
+    padding-left: 30px;
 
 }
 

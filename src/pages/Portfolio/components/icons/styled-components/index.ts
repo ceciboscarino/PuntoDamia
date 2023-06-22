@@ -1,1 +1,1 @@
-export * from './Icons.styled';
+export * from './Icons.motorola.styled';
