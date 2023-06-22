@@ -1,5 +1,5 @@
 import { IconsMotorolaContainer } from "./styled-components"
-import { FaReceipt } from "react-icons/Fa";
+import { FaReceipt } from "react-icons/fa";
 import { BsFillStopwatchFill , BsCalendar2WeekFill } from "react-icons/bs";
 
 
