@@ -133,6 +133,7 @@ flex-direction: column;
   animation-delay: calc(.2s * var(--i))
   
   
+  
 
   }
 @keyframes flip {
@@ -146,10 +147,18 @@ flex-direction: column;
 
     p{
     text-align: justify;
-    width: 50%;
+      width: 92%;
+      padding-left: 4%;
+      padding-right: 4%;
+    
+    
+    font-family: Regular ;
+    @media screen and (min-width: 786px) {
+      width: 50%;
     padding-left: 26%;
     padding-top: 15%;
-    font-family: MontHeavy ;
+
+    }
     
     } 
   .center{

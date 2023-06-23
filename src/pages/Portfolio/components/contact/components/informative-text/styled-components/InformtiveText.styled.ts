@@ -10,7 +10,7 @@ text-align: center;
 cursor: pointer;
 h2{
     color: black;
-    font-family: MontHeavy;
+    font-family: Regular;
 }
 h3{
     cursor: pointer;

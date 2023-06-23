@@ -10,10 +10,20 @@ background-image: linear-gradient( white, var(--main-color));
 position: relative;
 
 .first{
-    padding: 20px;
+    width: 100%;
+    
 
 p{
     text-align: justify;
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+h2{
+    color: var(--main-color);
+    padding-left: 4%;
+
 }
 }
 
@@ -37,6 +47,7 @@ li{
     text-decoration: none;
     list-style: none;
     text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+    width: 85%;
     
 }
 
@@ -112,10 +123,57 @@ li{
 
 
 h3{
-width: 100%;
-margin-left: 40px;
-text-align: leftt;
+width: 90%;
 
+text-align: left;
+
+
+}
+
+.fade-item {
+    transition: .2s all ease-in-out;
+    opacity: 0;
+}
+.fade-item1 {
+    transition: .2s all ease-in-out;
+    opacity: 0;
+}
+
+.fade-item2 {
+    transition: .2s all ease-in-out;
+    opacity: 0;
+}
+.fade-item3 {
+    transition: .2s all ease-in-out;
+    opacity: 0;
+}
+
+
+
+.fadein {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+.fadein1 {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+.fadein2 {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+.fadein3 {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 `

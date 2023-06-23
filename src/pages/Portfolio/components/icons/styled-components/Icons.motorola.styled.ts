@@ -16,7 +16,7 @@ export const IconsMotorolaContainer = styled.div`
     
 .servicio{
     padding-left: 80px;
-    font-family: MontHeavy;
+    font-family: Regular;
 
 }   
     h1{
