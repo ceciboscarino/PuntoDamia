@@ -1,5 +1,5 @@
 import { TecTextContainer } from ".";
-import { ReactElement, useEffect } from "react";
+import { ReactElement, useEffect, useRef } from "react";
 
 
 
@@ -7,11 +7,35 @@ import { ReactElement, useEffect } from "react";
 
 export default function TecText() {
 
-    
+    const ref = useRef(null);
     
     useEffect(() => { 
-        const items = document.getElementsByClassName("fade-item");
-        const items1 = document.getElementsByClassName("fade-item1");
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+              // Aquí es donde puedes activar o desactivar tu efecto CSS
+              // Este código se ejecutará cada vez que el elemento se haga visible o invisible
+              if (entry.isIntersecting) {
+                AllCode()
+              } else {
+                entry.target.classList.remove('mi-efecto-css');
+              }
+            },
+            {
+              // Aquí puedes configurar cuándo se debería considerar que el elemento es visible
+              // En este ejemplo, el elemento se considera visible cuando el 50% de él está en la pantalla
+              threshold: 0.5,
+            }
+          );
+        
+          if (ref.current) {
+            observer.observe(ref.current);
+          }
+
+        function AllCode () { 
+
+            const items = document.getElementsByClassName("fade-item");
+            const items1 = document.getElementsByClassName("fade-item1");
         const items2 = document.getElementsByClassName("fade-item2");
         const items3 = document.getElementsByClassName("fade-item3");
        
@@ -52,13 +76,21 @@ export default function TecText() {
             fadeIn3(items3[i], i * 1000)
           }
 
+        }
+        
+        return () => {
+            if (ref.current) {
+              observer.unobserve(ref.current);
+            }
+          };
 
-    }, [])
+
+        }, [])
             
             
 
     return (
-        <TecTextContainer>
+        <TecTextContainer >
             <div className="first">
                 <h2>
                     SERVICIO TECNICO
@@ -67,7 +99,7 @@ export default function TecText() {
                     En nuestro laboratorio tecnológico cuidamos y reparamos equipos celulares, de computación y consolas de todas las marcas. Tenemos en nuestro equipo a los mejores profesionales, usamos repuestos originales y de máxima calidad.
                 </p>
             </div>
-            <div className="responsive">
+            <div ref={ref} className="responsive" >
                 <div className="listcel">
                     <h3>
                         SOLUCIONES DE HARDWARE - CELULARES

@@ -9,12 +9,9 @@ const TecText = lazy(() => import('./components/tec-text/TecText'))
 function Skills() {
     return (
         <SkillsContainer id="skills">
-             <Suspense fallback={<div>Cargando</div>} >
-
             <CarrouselBrands/>
             <VideoStore/>
             <TecText/>
-            </Suspense>
         </SkillsContainer>
     )
 }
