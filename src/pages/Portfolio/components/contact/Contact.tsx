@@ -13,16 +13,20 @@ function Contact() {
     return (
         <ContactContainer id="contact">
             <SocialMedia/>
+                  <div className="division">
+                    </div>        
             <MapContextProvider >
                 <div className="location">
 
                     <InformativeText/>
                     <MapLocation/>
                 </div>
+               
             </MapContextProvider>
             <div className="copy">
-                <h3>Ceci-copyright</h3>
-            </div>
+                <p>Creado con 🤍 por Ceci</p>
+                <p className="right">Copyright© Todos los derechos reservados.</p>
+                </div>
         </ContactContainer>)
 
 }

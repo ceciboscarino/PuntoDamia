@@ -29,6 +29,7 @@ export default function SocialMedia () {
                 <span>Whatsapp</span>
                 </a>
             </div>
+           
             
         </SocialMediaContainer>
     )

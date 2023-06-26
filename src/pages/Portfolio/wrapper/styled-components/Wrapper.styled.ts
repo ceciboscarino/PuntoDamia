@@ -113,7 +113,7 @@ transition: all .6s ease;
     top: 0;
     right: 0;
     width: 250px;
-    height: 200vh;
+    height: 370vh;
     max-width: 250px;
     transform: translateX(-250px);
     

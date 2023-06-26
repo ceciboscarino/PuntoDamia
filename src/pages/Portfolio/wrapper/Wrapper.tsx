@@ -74,7 +74,7 @@ export default function Wrapper({ children }: Props) {
 
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a href="#aboutme" onClick={handleClickLink}>Nosotros</a>
-          <a href="#skills" onClick={handleClickLink}>Visitanos</a>
+          <a href="#skills" onClick={handleClickLink}>Servicios</a>
           <a href="#contact" onClick={handleClickLink}>Contacto</a>
         </div>
 

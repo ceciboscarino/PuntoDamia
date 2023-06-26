@@ -3,6 +3,8 @@ import { ReactElement, useEffect } from "react";
 
 
 
+
+
 export default function TecText() {
 
     

@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const SocialMediaContainer = styled.div`
 
+
+
+
+
 a{
     text-decoration: none;
 }
@@ -79,4 +83,5 @@ a{
             margin-right: 45px;
         }
     }
+   
 `
