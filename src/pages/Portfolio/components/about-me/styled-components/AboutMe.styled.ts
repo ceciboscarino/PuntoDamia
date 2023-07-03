@@ -13,9 +13,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    h2{
-    display: none;
-    }
+   
     img{
         height: 20px;
         width: auto;
@@ -29,16 +27,9 @@ flex-direction: column;
     @media (min-width: 786px) {
        flex-direction: row;
        height: 70px;
-       align-items: baseline;
+      
        align-items: center;
-        h2{
-        display: contents;
-        color: white;
-        
-        
-
-        
-        } 
+       justify-content :space-evenly ;
     img{
         height: 30px;
         padding-left: 40px;

@@ -15,7 +15,7 @@ export default function Carousel(props : CarouselProps) {
     const [loaded, setLoaded] = useState(false)
 
     useEffect(() => {
-        if (props.autoPlay || !props.showButtons) {
+        if (props.autoPlay ) {
           const interval = setInterval(() => {
             selectNewImage(selectedIndex, props.images);
           }, 2000);

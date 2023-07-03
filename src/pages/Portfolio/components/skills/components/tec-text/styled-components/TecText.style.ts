@@ -8,6 +8,10 @@ flex-direction: column;
 justify-content: space-between; 
 background-image: linear-gradient( white, var(--main-color));
 position: relative;
+img{
+    width:100%;
+    height: auto;
+}
 
 .first{
     width: 100%;
@@ -15,7 +19,7 @@ position: relative;
 
 p{
     text-align: justify;
-    width: 92%;
+    width: 90%;
     padding-left: 4%;
     padding-right: 4%;
 

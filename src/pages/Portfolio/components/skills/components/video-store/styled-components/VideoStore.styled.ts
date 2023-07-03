@@ -63,14 +63,8 @@ p{
     
 
     @media (min-width: 786px) {
-        width: 96%;
-  
+        width: 94%;  
 }
-    
-    
-   
-    
-    
 }
 }
     
@@ -86,7 +80,8 @@ width: 100%;
 height: auto;
 /* margin: 20px; */
 @media (min-width: 786px) {
-margin-top: 50px;
+
+width: 100%;
 }
 } 
 

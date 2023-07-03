@@ -9,7 +9,7 @@ export const IconsContainer = styled.div`
     margin: auto;
     padding: auto;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 80px;
     padding-bottom: 20px;
     p { 
         color: white;

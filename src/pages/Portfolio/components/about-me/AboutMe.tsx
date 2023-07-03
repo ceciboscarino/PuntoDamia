@@ -1,3 +1,4 @@
+
 import { AboutMeContainer } from ".";
 import 'transition-style';
 
@@ -50,17 +51,14 @@ function AboutMe() {
     return (
         <AboutMeContainer id="aboutme">
             <div className="pay">
-                <h2>Todos los medios de pago</h2>
-                <div>
-                    <img src="./img/american.png" alt="american express" />
-                    <img src="./img/visa.png" alt="visa" />
-                    <img src="./img/master.png" alt="mastercard" />
-                </div>
+                <img src="./img/american.png" alt="american express" />
+                <img src="./img/visa.png" alt="visa" />
+                <img src="./img/master.png" alt="mastercard" />
             </div>
 
             <div transition-style="in:circle:top-right" className="animation">
-                <img src="./img/5.jpg" alt="Evolucionamos" className="imgUno"/>
-                <img src="./img/alta.jpg" alt="Evolucionamos" className="imgDos"/>
+                <img src="./img/5.jpg" alt="Evolucionamos" className="imgUno" />
+                <img src="./img/alta.jpg" alt="Evolucionamos" className="imgDos" />
                 <div className="text">
                     <div className="body">
                         <div className="waviy">
@@ -85,9 +83,11 @@ function AboutMe() {
                     </p>
                 </div>
             </div>
+             {/* <ProductsVid/> */}
 
 
         </AboutMeContainer>
+        
     )
 }
 export default AboutMe

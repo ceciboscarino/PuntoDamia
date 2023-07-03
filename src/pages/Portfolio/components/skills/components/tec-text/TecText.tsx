@@ -91,10 +91,8 @@ export default function TecText() {
 
     return (
         <TecTextContainer >
+            <img src="./img/2.jpg" alt="Servicio Tecnico"></img>
             <div className="first">
-                <h2>
-                    SERVICIO TECNICO
-                </h2>
                 <p>
                     En nuestro laboratorio tecnológico cuidamos y reparamos equipos celulares, de computación y consolas de todas las marcas. Tenemos en nuestro equipo a los mejores profesionales, usamos repuestos originales y de máxima calidad.
                 </p>
@@ -135,7 +133,7 @@ export default function TecText() {
             <div className="responsive">
                 <div className="listvideo">
                     <h3>
-                        SOLUCIONES DE HARDWARE CONSOLA DE VIDEJUEGOS
+                        SOLUCIONES DE HARDWARE CONSOLAS DE VIDEJUEGOS
                     </h3>
                     <ul>
                         <li className="fade-item2">-Reballing de consolas</li>

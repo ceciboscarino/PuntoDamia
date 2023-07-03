@@ -9,6 +9,11 @@ export const IconsMotorolaContainer = styled.div`
     width: 100%;
     height: auto;
     
+    .bigImage{
+        width: 100%;
+        height: auto;
+    }
+    
 
 .text{
     width: 100%;
@@ -62,7 +67,7 @@ text-align: left;
     }
     @media (min-width: 786px) {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
 @media (min-width: 786px) {
