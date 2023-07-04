@@ -53,7 +53,7 @@ text-align: left;
         align-items: center;
         color: white;
         width:  auto;
-        height: 40px;
+        height: 50px;
         
         
     }

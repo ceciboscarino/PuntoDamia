@@ -1,6 +1,6 @@
 import { IconsMotorolaContainer } from "./styled-components"
 import { FaReceipt } from "react-icons/fa";
-import { BsFillStopwatchFill , BsCalendar2WeekFill } from "react-icons/bs";
+import { BsFillStopwatchFill , BsFillCalendarCheckFill } from "react-icons/bs";
 
 
 
@@ -14,10 +14,10 @@ function IconsMotorola() {
         <div className="icons">
             <div className="div">
             <FaReceipt/>
-            <p>Tenés 90 días de garantía en la reparación</p>    
+            <p>No necesitás presentar tu factura de compra</p>    
         </div> 
         <div className="div">
-            <FaReceipt/>
+            <BsFillCalendarCheckFill/>
             <p>Tenés 90 días de garantía en la reparación</p>    
         </div> 
           
