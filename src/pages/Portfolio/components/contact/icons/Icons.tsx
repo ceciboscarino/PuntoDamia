@@ -2,7 +2,7 @@ import { IconsContainer } from "./styled-components"
 import { MdDeliveryDining } from "react-icons/md";
 import { BsTools } from "react-icons/bs";
 import { GiPriceTag } from "react-icons/gi";
-import { AiFillLock } from "react-icons/ai";
+import { MdPayments } from "react-icons/md";
 
 BsTools
 function Icons() {
@@ -22,8 +22,8 @@ function Icons() {
             <p>Las mejores ofertas</p>    
         </div> 
         <div className="div">
-            <AiFillLock />
-            <p>Seguridad en tus pagos</p>    
+            <MdPayments />
+            <p>Todos los medios de pago</p>    
         </div> 
         
 

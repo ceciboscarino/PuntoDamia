@@ -9,7 +9,7 @@ export const IconsContainer = styled.div`
     margin: auto;
     padding: auto;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 35px;
     padding-bottom: 20px;
     p { 
         color: white;
@@ -33,6 +33,7 @@ export const IconsContainer = styled.div`
     @media (min-width: 786px) {
         flex-direction: row;
         justify-content: space-around;
+        
     }
 
 `

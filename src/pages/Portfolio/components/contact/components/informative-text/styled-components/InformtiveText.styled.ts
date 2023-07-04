@@ -14,10 +14,24 @@ h2{
 }
 h3{
     cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+a {
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    text-decoration: none;
+    color: white;
 }
 
 
 @media (min-width: 786px) {
 width: 25%;
+}
+
+p{
+    margin-top: 0px;
 }
 `

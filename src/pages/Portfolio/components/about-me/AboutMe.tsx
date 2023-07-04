@@ -1,4 +1,5 @@
 
+import {ProductsVid} from "./components/products-vid";
 import { AboutMeContainer } from ".";
 import 'transition-style';
 
@@ -83,7 +84,7 @@ function AboutMe() {
                     </p>
                 </div>
             </div>
-             {/* <ProductsVid/> */}
+             <ProductsVid/>
 
 
         </AboutMeContainer>

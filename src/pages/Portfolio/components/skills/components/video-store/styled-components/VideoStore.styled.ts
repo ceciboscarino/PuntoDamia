@@ -28,6 +28,7 @@ img{
 flex-direction:column; 
 @media (min-width: 786px) {
 flex-direction:row;
+
 }
 background-color: transparent ;
 margin: 0;

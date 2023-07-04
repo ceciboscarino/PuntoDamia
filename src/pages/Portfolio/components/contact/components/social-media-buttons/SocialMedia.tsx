@@ -21,14 +21,14 @@ export default function SocialMedia () {
                 <span>Instagram</span>
             </a>
                 </div>
-            <div className="button">
+            {/* <div className="button">
                 <div className="icon">
                     <i className="fa fa-whatsapp"></i>
                 </div>
             <a href="https://wa.me/5493816000666" target="_blank">
                 <span>Whatsapp</span>
                 </a>
-            </div>
+            </div> */}
            
             
         </SocialMediaContainer>

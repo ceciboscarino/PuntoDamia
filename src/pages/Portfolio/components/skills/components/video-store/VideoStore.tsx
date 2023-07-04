@@ -18,8 +18,7 @@ function VideoStore() {
             Adoptando la nanotecnología, nuestra Nano Película UV tiene las características de alta resolución, antiarañazos, antiexplosión, absorción de impactos y ajuste perfecto, siendo el protector más vendido en el mercado hoy en día.
           </p>
         </div>
-        {/* <iframe className="responsive-iframe" src="https://www.youtube.com/embed/Fa2hRzyvJTw?autoplay=1&mute=1&controls=1&loop=1&playlist=mLQfltyzj7o" title="Punto Damia"  ></iframe> */}
-        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rrw5ipHRDxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="responsive-iframe" src="https://www.youtube.com/embed/rrw5ipHRDxU?autoplay=1&mute=1&controls=1&loop=1&playlist=rrw5ipHRDxU" title="Punto Damia"  ></iframe>
       </div>
     </VideoStoreContainer>
   )
