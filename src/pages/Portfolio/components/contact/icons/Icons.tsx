@@ -11,11 +11,11 @@ function Icons() {
     <IconsContainer>
         <div className="div">
             <MdDeliveryDining/>
-            <p>Envios gratis</p>    
+            <p>Envíos gratis</p>    
         </div> 
         <div className="div">
             <BsTools/>
-            <p>Garantia en todo nuestros arreglos</p>    
+            <p>Garantía en todo nuestros arreglos</p>    
         </div> 
         <div className="div">
             <GiPriceTag/>

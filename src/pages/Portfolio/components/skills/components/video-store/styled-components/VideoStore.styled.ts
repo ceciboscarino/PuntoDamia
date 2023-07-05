@@ -11,14 +11,7 @@ margin: 0;
     position: relative;
     }
 
-img{
-    width: 100%;
-    height: auto;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
+
 
 .out{
     position: relative;

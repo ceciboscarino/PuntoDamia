@@ -5,7 +5,7 @@ function VideoStore() {
   return (
 
     <VideoStoreContainer>
-      <img src="./img/7.jpg" alt="Lensun" />
+      
       <div className="out">
         <div className="inside" >
 

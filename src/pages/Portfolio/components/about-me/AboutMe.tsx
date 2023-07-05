@@ -79,7 +79,7 @@ function AboutMe() {
                         </div>
                     </div>
                     <p>
-                        Entendemos que tus dispositivos tecnologicos son vitales para vos. Nos destacamos en la venta y cuidado de estos equipos, ofreciendo atencion personalizada y soluciones duraderas. Estamos en constante crecimiento, buscando mejorar la experiencia del cliente y mantenernos a la vanguardia en tecnologia. Agradecemos tu apoyo en este emocionante viaje.
+                        Entendemos que tus dispositivos tecnológicos son vitales para vos. Nos destacamos en la venta y cuidado de estos equipos, ofreciendo atención personalizada y soluciones duraderas. Estamos en constante crecimiento, buscando mejorar la experiencia del cliente y mantenernos a la vanguardia en tecnología. Agradecemos tu apoyo en este emocionante viaje.
 
                     </p>
                 </div>

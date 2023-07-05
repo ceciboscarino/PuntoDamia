@@ -133,7 +133,7 @@ export default function TecText() {
             <div className="responsive">
                 <div className="listvideo">
                     <h3>
-                        SOLUCIONES DE HARDWARE CONSOLAS DE VIDEJUEGOS
+                        SOLUCIONES DE HARDWARE CONSOLAS DE VIDEOJUEGOS
                     </h3>
                     <ul>
                         <li className="fade-item2">-Reballing de consolas</li>
