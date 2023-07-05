@@ -53,11 +53,17 @@ p{
     width: 92%;
     padding-left: 4%;
     padding-right: 4%;
+    padding-top: 3px;
 
     
 
     @media (min-width: 786px) {
         width: 94%;  
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    
 }
 }
 }
