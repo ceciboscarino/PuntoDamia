@@ -54,6 +54,7 @@ p{
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 3px;
+    color: var(--color);
 
     
 

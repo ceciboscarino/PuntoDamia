@@ -9,10 +9,7 @@ function Icons() {
 
     return (
     <IconsContainer>
-        <div className="div">
-            <MdDeliveryDining/>
-            <p>Envíos gratis</p>    
-        </div> 
+       
         <div className="div">
             <BsTools/>
             <p>Garantía en todo nuestros arreglos</p>    
